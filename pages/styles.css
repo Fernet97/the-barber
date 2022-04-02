@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+p, h1 {
+  color: gold;
+}
+
+
+
+input {
+  font-size: large;
+  margin: 2px;
+}
+
+button {
+  font-size: large;
+}
+
+
+.CardLayout{
+  margin-top: 5%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.container {
+  padding: 2px 16px
+}
+
+.coverBluerred{
+   background: rgba(0, 0, 0, 0.5);
+}

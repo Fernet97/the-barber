@@ -1,0 +1,49 @@
+tema nero/oro
+style vittoriano
+font vittoriano
+
+idee:
+http://whatsintheoldbox.com/
+https://www.pinterest.it/pin/588001295083193998/
+https://www.youtube.com/watch?v=pVLJwzb0sFg&ab_channel=HasThemes
+
+
+Animation effect:
+https://www.react-reveal.com/examples/advanced/todo/
+
+
+UI Design & animation:
+Frame motion: https://www.framer.com/motion/
+https://www.framer.com/docs/examples/
+
+
+x CARD MENU
+https://freefrontend.com/css-cards/
+https://codepen.io/petegarvin1/pen/YzWBbRx
+https://codepen.io/saviomartin/pen/LYNgqKW
+https://codepen.io/cycosta/pen/vYLJxwq
+O È MEGLIO GESTURE?
+https://www.npmjs.com/package/react-use-gesture
+
+
+How and Where Publish the site:
+?
+?
+
+https://github.com/Darth-Knoppix/next-page-transitions-framer-motion
+
+
+
+!!! MA QUASI QUASI X SCROLLING usare FUllPage.js
+______________________
+
+Fullpagejs x scrolling
+Framer per il flusso di prenotazione (es: scelta servizio, date , etc..)
+
+
+Icone:
+Barber Pole icon
+
+
+
+

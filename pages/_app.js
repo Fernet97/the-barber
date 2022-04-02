@@ -1,7 +1,9 @@
-import '../styles/globals.css'
+import './styles.css'
+import {motion} from "framer-motion";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+// This default export is required in a new `pages/_app.js` file.
+export default function MyApp({ Component, pageProps }) {
+  return(
+      <Component {...pageProps} />
+  );
 }
-
-export default MyApp
