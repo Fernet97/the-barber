@@ -2,6 +2,8 @@ tema nero/oro
 style vittoriano
 font vittoriano
 
+
+
 idee:
 http://whatsintheoldbox.com/
 https://www.pinterest.it/pin/588001295083193998/
@@ -48,3 +50,11 @@ Barber Pole icon
 
 https://www.youtube.com/watch?v=iNkryf_TtZw
 https://ej2.syncfusion.com/react/documentation/schedule/appointments/
+
+_______________________
+
+BOOTSTRAP sadwich: così è già resaponsive
+Nuovo branch
+________________________
+
+https://www.reuzel.com/

@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef} from 'react';
 import {motion} from "framer-motion";
 import styles from './areaPrenotazione.module.css'
 import Fade from '@stahl.luke/react-reveal/Fade';
+import { FaBell, FaUserAlt} from "react-icons/fa";
 
 
 export default function AreaPrenotazione() {
@@ -36,7 +37,6 @@ export default function AreaPrenotazione() {
                     <p>Torna al Menu</p>
                   </Link>
                     <p>~ Servizio da effettuare ~</p>
-                    <h2>UPPER CLASS</h2>
                     <p>
                     Lorem Ipsum is simply dummy text of the printing and t
                     </p>
@@ -47,9 +47,11 @@ export default function AreaPrenotazione() {
       <div className= {styles.ImgDiv}>
             <div  className= {styles.cover}>
               <div  className= {styles.NavTop}>
-                  <div>ciao</div>
                   <div>Cronologia prenotazioni</div>
-                  <div>Prova</div>
+                  <div>
+                    <FaBell style={{color: 'white', fontSize: '2vw'}}/>
+                    <FaUserAlt style={{color: 'white', fontSize: '2vw', }}/>
+                  </div>
               </div>
             </div>
           <div>

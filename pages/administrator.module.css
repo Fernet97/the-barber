@@ -1,0 +1,29 @@
+.PageMain {
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: black;
+  background-image: url('../public/images/salon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.cover{
+  flex: 1;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 5%;
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
