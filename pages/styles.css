@@ -1,46 +1,83 @@
+
 body {
-  margin: 0;
-  font-family: "Klee One", sans-serif;
-  color: gold;
+  width: 100vw;
+  font-family: "Klee One", sans-serif !important;
+  color: gold !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(105, 105, 105) !important;
+
 }
 
 
 
 h1{
-  font-size:10vw;
-  font-family: "Italiana", sans-serif;
+  font-size: 20vw !important;
+  font-family: "Italiana", sans-serif !important;
 }
 
 h2{
-  font-size:3vw;
-  font-family: "Klee One", sans-serif;
+  font-size: 4vw  !important;
+  font-family: "Klee One", sans-serif !important;
+}
+
+p{
+  font-size: small!important;
+  display: none;
 }
 
 
-img{
-  width: 20vw;
+/*Overwrite Bootstrap styles*/
+a.nav-link{
+  color: gold !important;
+  font-family: "Klee One", sans-serif !important;
+}
+
+a.navbar-brand{
+  color: gold !important;
+  font-family: "Klee One", sans-serif !important;
+}
+
+button.navbar-toggler {
+    border: 0px solid transparent;
+}
+
+div.offcanvas-start {
+  backdrop-filter: blur(10px);
+  background-color: rgba(105, 105, 105, 0.2);
+  width: 60vw;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54); ;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54); ;
 }
 
 
-
-input {
-  font-size: large;
-  margin: 2px;
+/*Per il border del sandwitch*/
+button{
+  color: rgba(105, 105, 105, 0.0) !important;
 }
 
-button {
-  font-size: large;
-}
 
-.CardLayout{
-  width: 80vw;
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  /* background-color: green; */
-  padding: 2%;
+@media (min-width: 768px){
+
+  h1{
+    font-size:10vw!important;
+  }
+
+  h2{
+    font-size:3vw !important;
+  }
+
+  p{
+    font-size: large !important;
+    display: flex;
+  }
+
+
+  div.offcanvas-start {
+    backdrop-filter: blur(0px);
+    -webkit-box-shadow: 0px 0px 0px 0px #000000;
+    box-shadow: 0px 0px 0px 0px #000000;
+  }
+
+
 }

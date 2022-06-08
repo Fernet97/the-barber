@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef} from 'react';
 import {motion} from "framer-motion";
 import styles from './administrator.module.css'
 import Fade from '@stahl.luke/react-reveal/Fade';
-import { Inject, ScheduleComponent, Day, Week, WorkWeek, Month, Agenda, Inject } from '@syncfusion/ej2-react-schedule';
+//import { Inject, ScheduleComponent, Day, Week, WorkWeek, Month, Agenda, Inject } from '@syncfusion/ej2-react-schedule';
 
 
 export default function Administrator() {
@@ -24,10 +24,6 @@ export default function Administrator() {
       <div className= {styles.PageMain}>
         <div  className= {styles.cover}>
             <h2>~ Pannello Amministratore ~</h2>
-            <ScheduleComponent>
-              <Inject services={[Day, Week, WorkWeek, Month, Agenda]}/>
-
-            </ScheduleComponent>
         </div>
       </div>
 

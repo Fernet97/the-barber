@@ -17,7 +17,67 @@
 }
 
 
+.IlCosoDelBarbiereDx{
+  background-image: url(//cdn.shopify.com/s/files/1/0086/0969/3776/t/151/assets/barber-side-right.svg?v=1063671…);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3%;
+  z-index: 2;
+}
 
-@media (prefers-reduced-motion: no-preference) {
+.IlCosoDelBarbiereSx{
+  background-image: url(//cdn.shopify.com/s/files/1/0086/0969/3776/t/151/assets/barber-side-right.svg?v=1063671…);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3%;
+  z-index: 2;
+}
+
+
+
+
+.Navbar{
+  background-color: rgba(105, 105, 105, 0.2);
+  padding: 10px;
+  font-family: "Klee One", sans-serif;
+
+  /*Shadows*/
+  -webkit-box-shadow: 5px 5px 10px 0px #000000;
+  -moz-box-shadow: 5px 5px 10px 0px #000000;
+  -o-box-shadow: 5px 5px 10px 0px #000000;
+  box-shadow: 5px 5px 10px 0px #000000;
+
+  backdrop-filter: blur(10px);
+
+}
+
+.Navbar{
+  background-color: rgba(105, 105, 105, 0.2);
+  padding: 10px;
+  font-family: "Klee One", sans-serif;
+
+  /*Shadows*/
+  -webkit-box-shadow: 5px 5px 10px 0px #000000;
+  -moz-box-shadow: 5px 5px 10px 0px #000000;
+  -o-box-shadow: 5px 5px 10px 0px #000000;
+  box-shadow: 5px 5px 10px 0px #000000;
+
+  backdrop-filter: blur(10px);
 
 }

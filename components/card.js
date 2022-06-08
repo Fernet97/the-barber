@@ -8,8 +8,6 @@ export default function Card(props) {
       <div>
         <p className={styles.titleCard}>{props.title}</p>
       </div>
-
-
     </div>
     </Link>
   );

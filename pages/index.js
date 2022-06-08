@@ -7,6 +7,7 @@ import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import Fade from '@stahl.luke/react-reveal/Fade';
 import React, { useState, useEffect, useRef} from 'react';
 import {motion} from "framer-motion";
+import Layout from '../components/layout';
 
 
 export default function Home() {
@@ -24,81 +25,53 @@ export default function Home() {
     }
 
     return (
-      < motion.div
-        key="home"
-        initial="initial"
-        animate="animate"
-        variants={{
-          initial: {
-            opacity: 0,
-          },
-          animate: {
-            opacity: 1,
-          },
-        }}>
+      <Layout>
+        < motion.div
+          key="home"
+          initial="initial"
+          animate="animate"
+          variants={{
+            initial: {
+              opacity: 0,
+            },
+            animate: {
+              opacity: 1,
+            },
+          }}>
 
-        <Head>
-          <title>UpperClass</title>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Klee One|Italiana"/>
-        </Head>
+          <Head>
+            <title>UpperClass</title>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Klee One|Italiana"/>
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+          </Head>
 
-          <ParallaxProvider>
+            <ParallaxProvider>
 
-            <TitleScreen>
-              <Parallax speed={-10}>
-              <Fade spy={burla} bottom cascade>
-                  <div>
-                    <h2>~ Barber Shop ~</h2>
-                    <h1>UPPER CLASS</h1>
-                    <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-                  </div>
-               </Fade>
-              </Parallax>
-            </TitleScreen>
+              <TitleScreen>
+                <Parallax speed={-10}>
+                <Fade spy={burla} bottom cascade>
+                    <div>
+                      <h2>~ Barber Shop ~</h2>
+                      <h1>UPPER CLASS</h1>
+                      <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                 </Fade>
+                </Parallax>
+              </TitleScreen>
 
-            <Dashboard>
-              <Parallax speed={-10}>
-                  <div class= "CardLayout">
-                    <Card
-                        title = "Prenotati"
-                        imgPath = "images/Me.png"
-                        link = "/areaPrenotazione"
-                     />
+              <Dashboard>
+                <Parallax speed={-10}>
+                    <div class= "CardLayout">
+                        ciao ciuao ciao
+                    </div>
+                </Parallax>
+              </Dashboard>
 
-                     <Card
-                         title = "Listino servizi"
-                         descr = "Lista parole usate"
-                         imgPath = "/images/icon-192x192.png"
-                         link = "/"
-                      />
+            </ParallaxProvider>
 
-                      <Card
-                          title = "Dove siamo"
-                          descr = "Lista parole usate"
-                          imgPath = "/images/icon-192x192.png"
-                          link = "/"
-                       />
-
-                      <Card
-                          title = "Gallery"
-                          descr = "Pierluigi Liguori"
-                          imgPath = "/images/icon-192x192.png"
-                          link = "/rules"
-                       />
-                       <Card
-                           title = "Promo"
-                           descr = "Pierluigi Liguori"
-                           imgPath = "/images/icon-192x192.png"
-                           link = "/rules"
-                        />
-                  </div>
-              </Parallax>
-            </Dashboard>
-
-          </ParallaxProvider>
-
-      </motion.div>
+        </motion.div>
+      </Layout>
     )
   }
